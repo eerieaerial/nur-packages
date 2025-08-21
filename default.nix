@@ -14,5 +14,5 @@
   modules = import ./modules; # NixOS modules
   overlays = import ./overlays; # nixpkgs overlays
 
-  gcc.tricore-embedded = pkgs.callPackage ./pkgs/gcc-tricore-embedded { };
+  gcc-tricore-embedded = pkgs.callPackage ./pkgs/gcc-tricore-embedded { };
 }
