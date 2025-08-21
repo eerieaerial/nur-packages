@@ -1,3 +1,3 @@
 {
-  precompiled-toolchains = import precompiled-toolchains.nix
+  precompiled-toolchains = import precompiled-toolchains.nix;
 }
